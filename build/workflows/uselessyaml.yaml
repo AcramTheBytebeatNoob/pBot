@@ -1,0 +1,35 @@
+# ==============================================================================
+# pBot Engine - Ultimate Configuration Setup
+# ==============================================================================
+metadata:
+  name: "pBot Studio Configuration Layer"
+  codename: "xDBot & zBot Obliterator"
+  version: "2.0.0"
+  status: "Fully Synchronized"
+
+ui_visuals:
+  theme: "Cyber Blue Matrix"
+  base_color:
+    r: 10
+    g: 35
+    b: 70
+  opacity_level: 230
+  render_rainbow_borders: false
+  custom_status_label: "THIS WILL BE MORE POWERFUL THAN XDBOT AND ZBOT EVER."
+
+bot_core_parameters:
+  frame_perfect_ticks: true
+  physics_bypass_level: 9001
+  auto_save_on_practice_finish: true
+  auto_pause_on_restart: true
+
+useless_tweaks:
+  flex_on_zbot_users: true
+  play_unnecessary_click_sounds: true
+  brag_about_frame_perfection: true
+  ignore_network_bloatware: true
+
+build_deployment:
+  target_framework: "Geode SDK v3.0.0"
+  output_format: ".geode compiled package"
+  final_step_status: "COMPLETED"
