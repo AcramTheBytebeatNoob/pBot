@@ -1,0 +1,16 @@
+{
+    "geode": "3.0.0-beta.1",
+    "id": "developer.pbot_engine",
+    "version": "2.0.0",
+    "name": "pBot Studio",
+    "developer": "Developer",
+    "description": "The definitive macro recorder and player layer designed to completely surpass xDBot and zBot.",
+    "settings": {
+        "frame-perfect-mode": {
+            "name": "Frame-Perfect Engine",
+            "description": "Forces native position and delta-time corrections on player ticks.",
+            "type": "bool",
+            "default": true
+        }
+    }
+}
